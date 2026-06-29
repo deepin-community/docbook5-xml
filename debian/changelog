@@ -1,3 +1,12 @@
+docbook5-xml (5.0-4) unstable; urgency=medium
+
+  * QA upload.
+  * Orphan the package, see #802377.
+  * Mark docbook5-xml Multi-Arch: foreign.
+  * Declare compliance with Debian policy 4.7.0.
+
+ -- Helmut Grohne <helmut@subdivi.de>  Mon, 05 Aug 2024 21:29:52 +0200
+
 docbook5-xml (5.0-3) unstable; urgency=medium
 
   * debian/control:

@@ -1,17 +1,17 @@
 Source: docbook5-xml
 Section: text
 Priority: optional
-Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
-Uploaders: Boyuan Yang <byang@debian.org>,
+Maintainer: Debian QA Group <packages@qa.debian.org>
 Build-Depends: debhelper-compat (= 13),
 Build-Depends-Indep: xml-core (>= 0.6),
-Standards-Version: 4.5.0
+Standards-Version: 4.7.0
 Homepage: http://docbook.org/schemas/5x.html
 Vcs-Git: https://salsa.debian.org/debian/docbook5-xml.git
 Vcs-Browser: https://salsa.debian.org/debian/docbook5-xml
 
 Package: docbook5-xml
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}
 Suggests: docbook-xsl-ns, docbook5-defguide
 Description: standard XML documentation system for software and systems
